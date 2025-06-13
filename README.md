@@ -63,7 +63,7 @@ cd frontend && npm install
 cp .env.example .env.local
 ```
 
-**Add Supabase + Twilio keys here**
+> Add Supabase + Twilio keys here
 
 ### Start frontend
 
