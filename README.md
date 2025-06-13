@@ -46,19 +46,27 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ## Getting Started
 
+```md
 git clone https://github.com/rahulyyadav/AeroStream.git
 cd aerostream
+```
 
 ### Install frontend
 
+```md
 cd frontend && npm install
+```
 
 ### Environment setup
 
+```md
 cp .env.example .env.local
+```
 
 **Add Supabase + Twilio keys here**
 
 ### Start frontend
 
+```md
 npm run dev
+```
