@@ -21,9 +21,7 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ---
 
-```md
 ![Architecture](public/AeroStream_Arch.png)
-```
 
 ```md
 ![Landing Page](public/AeroStream.jpeg)
