@@ -1,10 +1,20 @@
 # AeroStream — Intelligent Disease Detection via Breath Analysis
 
-AeroStream is an AI-driven, cloud-based platform that enables early-stage disease detection through **breath analysis**, empowering rural and urban healthcare systems alike. Built using **Next.js**, **Azure**, and **Supabase**, the platform uses **LLMs for inference**, **Twilio for OTP verification**, and supports both patients and doctors through a mobile-friendly interface.
+AeroStream is a cloud-native platform for real-time breath analysis and disease detection, built with Next.js, Azure, Supabase, and LLMs. Designed for rural scalability, it supports secure patient-doctor workflows with OTP-based access.
 
 ---
 
-## Features
+## 1. How It Works
+
+1. User logs in via phone number (Supabase + Twilio OTP)
+2. Breath input is collected and processed client-side
+3. Processed signal sent to Azure Function → triggers LLM-based prompt analysis
+4. Disease risk is inferred and shown on the User Dashboard
+5. Notification sent to doctor dashboard if threshold is crossed
+
+---
+
+## 2. Features
 
 - **Breath-Based Disease Prediction** using signal data and AI prompt engineering
 - **Secure Auth with Supabase** and **SMS OTP with Twilio**
@@ -15,13 +25,13 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ---
 
-## Motivation
+## 3. Motivation
 
 > AeroStream is designed to bring **preventive health diagnostics** to underserved regions through low-cost, LLM-powered tools that operate on breath-based bio-signals. Breath contains detectable biomarkers for diseases such as **COVID-19, diabetes, lung disease, and even cancer**.
 
 ---
 
-## Status
+## 4. Status
 
 | Feature               | Description                                           | Status      |
 | --------------------- | ----------------------------------------------------- | ----------- |
@@ -37,11 +47,11 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ---
 
-# Architecture
+# 5. Architecture
 
 ![Architecture](public/AeroStream_Arch.png)
 
-# Landing Page
+# 6. Landing Page
 
 ![Landing Page](public/AeroStream.jpeg)
 
@@ -49,7 +59,7 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 ![Twilio OTP](public/Twilio_OTP.jpeg)
 ```
 
-## Tech Stack
+## 7. Tech Stack
 
 | Layer      | Tools                                      |
 | ---------- | ------------------------------------------ |
@@ -60,7 +70,7 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ---
 
-## Getting Started
+## 8. Getting Started
 
 ```md
 git clone https://github.com/rahulyyadav/AeroStream.git
@@ -85,4 +95,16 @@ cp .env.example .env.local
 
 ```md
 npm run dev
+```
+
+---
+
+### 9. **Include Badges**
+
+Add shields at the top:
+
+```md
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-active-blue)
 ```
