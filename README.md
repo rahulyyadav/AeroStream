@@ -23,15 +23,17 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ## Status
 
-| Feature               | Description                                           | Status         |
-| --------------------- | ----------------------------------------------------- | -------------- |
-| Londing Page          | landing page, packages, getting started               | ✅ Done        |
-| Login Page            | User authentication UI                                | ✅ Done        |
-| Singup Page           | User registration                                     | ✅ Done        |
-| OTP Verification      | User verification on phone number                     | ✅ Done        |
-| User Dashboard        | Displays user data                                    | 🔧 In Progress |
-| Doctor Dashboard      | User authentication UI                                | 🔧 In Progress |
-| Disease Notifications | Alert User of detected Disease, send report to doctor | ❌ Not Started |
+| Feature               | Description                                           | Status      |
+| --------------------- | ----------------------------------------------------- | ----------- |
+| Londing Page          | landing page, packages, getting started               | Done        |
+| Supabase setup        | Authentication, New user data                         | Done        |
+| Login Page            | User authentication UI                                | Done        |
+| Singup Page           | User registration                                     | Done        |
+| OTP Verification      | User verification on phone number                     | Done        |
+| Azure                 | Blob, Azure functions                                 | Done        |
+| User Dashboard        | Displays user data                                    | In Progress |
+| Doctor Dashboard      | User authentication UI                                | In Progress |
+| Disease Notifications | Alert User of detected Disease, send report to doctor | Not Started |
 
 ---
 
