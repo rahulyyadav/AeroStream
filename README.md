@@ -1,3 +1,7 @@
+![MIT License](https://img.shields.io/badge/license-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Status](https://img.shields.io/badge/status-active-blue)
+
 # AeroStream — Intelligent Disease Detection via Breath Analysis
 
 AeroStream is a cloud-native platform for real-time breath analysis and disease detection, built with Next.js, Azure, Supabase, and LLMs. Designed for rural scalability, it supports secure patient-doctor workflows with OTP-based access.
@@ -95,16 +99,4 @@ cp .env.example .env.local
 
 ```md
 npm run dev
-```
-
----
-
-### 9. **Include Badges**
-
-Add shields at the top:
-
-```md
-![MIT License](https://img.shields.io/badge/license-MIT-green)
-![Build](https://img.shields.io/badge/build-passing-brightgreen)
-![Status](https://img.shields.io/badge/status-active-blue)
 ```
