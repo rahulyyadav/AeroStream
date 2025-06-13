@@ -21,17 +21,6 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 
 ---
 
-## 📸 Suggested Assets (Place in `/assets/`)
-
-| Image              | Description                                                    |
-| ------------------ | -------------------------------------------------------------- |
-| `architecture.png` | Cloud architecture: Next.js → Supabase → Azure Functions → LLM |
-| `app-ui.png`       | Screenshots of login, patient input, and doctor dashboard      |
-| `llm-flow.png`     | Signal preprocessing → LLM prompt → output diagnosis           |
-| `twilio-sms.png`   | Sample Twilio OTP integration flow                             |
-
-Use the following to embed:
-
 ```md
 ![Architecture](./assets/AeroStream_Arch.png)
 ```
@@ -44,14 +33,15 @@ Use the following to embed:
 ![Architecture](./assets/Twilio_OTP.jpeg)
 ```
 
-**🧰 Tech Stack**
+## 🧰 Tech Stack
+
 Layer Tools
 Frontend Next.js, Shadcn, Tailwind, TypeScript
 Backend Azure Functions, Blob, Supabase (Auth, DB)
 Auth & OTP Supabase + Twilio SMS
 Deployment Vercel (frontend), Azure (backend inference)
 
-**🛠️ Getting Started**
+## 🛠️ Getting Started
 
 git clone https://github.com/rahulyyadav/AeroStream.git
 cd aerostream
