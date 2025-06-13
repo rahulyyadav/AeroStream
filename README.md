@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 AeroStream — Intelligent Disease Detection via Breath Analysis
 
-## Getting Started
+AeroStream is an AI-driven, cloud-based platform that enables early-stage disease detection through **breath analysis**, empowering rural and urban healthcare systems alike. Built using **Next.js**, **Azure**, and **Supabase**, the platform uses **LLMs for inference**, **Twilio for OTP verification**, and supports both patients and doctors through a mobile-friendly interface.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+- 🩺 **Breath-Based Disease Prediction** using signal data and AI prompt engineering
+- 🔐 **Secure Auth with Supabase** and **SMS OTP with Twilio**
+- 📱 **Mobile-First Frontend** built with Next.js and Shadcn for rapid access
+- 🌩️ **Azure Cloud-Hosted Backend** for inference and data sync
+- 🧑‍⚕️ **Doctor Dashboard** for tracking patient diagnostics
+- 🏥 **Admin Panel** for managing trends, usage, and rural deployment
+
+---
+
+## 🧪 Motivation
+
+> AeroStream is designed to bring **preventive health diagnostics** to underserved regions through low-cost, LLM-powered tools that operate on breath-based bio-signals. Breath contains detectable biomarkers for diseases such as **COVID-19, diabetes, lung disease, and even cancer**.
+
+---
+
+## 📸 Suggested Assets (Place in `/assets/`)
+
+| Image              | Description                                                    |
+| ------------------ | -------------------------------------------------------------- |
+| `architecture.png` | Cloud architecture: Next.js → Supabase → Azure Functions → LLM |
+| `app-ui.png`       | Screenshots of login, patient input, and doctor dashboard      |
+| `llm-flow.png`     | Signal preprocessing → LLM prompt → output diagnosis           |
+| `twilio-sms.png`   | Sample Twilio OTP integration flow                             |
+
+Use the following to embed:
+
+```md
+![Architecture](./assets/AeroStream_Arch.png)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```md
+![Architecture](./assets/AeroStream.jpeg)
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```md
+![Architecture](./assets/Twilio_OTP.jpeg)
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**🧰 Tech Stack**
+Layer Tools
+Frontend Next.js, Shadcn, Tailwind, TypeScript
+Backend Azure Functions, Blob, Supabase (Auth, DB)
+Auth & OTP Supabase + Twilio SMS
+Deployment Vercel (frontend), Azure (backend inference)
 
-## Learn More
+**🛠️ Getting Started**
 
-To learn more about Next.js, take a look at the following resources:
+git clone https://github.com/rahulyyadav/AeroStream.git
+cd aerostream
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Install frontend
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+cd frontend && npm install
 
-## Deploy on Vercel
+# Environment setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+cp .env.example .env.local
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Add Supabase + Twilio keys here
+
+# Start frontend
+
+npm run dev
