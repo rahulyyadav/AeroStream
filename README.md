@@ -22,15 +22,15 @@ AeroStream is an AI-driven, cloud-based platform that enables early-stage diseas
 ---
 
 ```md
-![Alt text](./public/AeroStream_Arch.png)
+![Architecture](public/AeroStream_Arch.png)
 ```
 
 ```md
-![Architecture](/public/AeroStream.jpeg)
+![Landing Page](public/AeroStream.jpeg)
 ```
 
 ```md
-![Architecture](/public/Twilio_OTP.jpeg)
+![Twilio OTP](public/Twilio_OTP.jpeg)
 ```
 
 ## 🧰 Tech Stack
